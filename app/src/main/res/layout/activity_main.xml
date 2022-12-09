@@ -1,0 +1,60 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/parent_relative_layout"
+    android:background="@color/banana_yellow">
+
+    <ImageView
+        android:id="@+id/my_mood"
+        android:layout_width="215dp"
+        android:layout_height="255dp"
+        android:layout_centerInParent="true"
+        android:contentDescription="@string/mood_user"
+        android:src="@drawable/smiley_super_happy" />
+
+    <ImageButton
+        android:id="@+id/button_comment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@null"
+        android:contentDescription="@string/add_comment_button"
+        android:src="@drawable/ic_comment" />
+
+    <ImageButton
+        android:id="@+id/mood_record"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="20dp"
+        android:background="@null"
+        android:contentDescription="@string/mood_record_button"
+        android:src="@drawable/ic_mood_history"/>
+
+    <Button
+        android:id="@+id/LastMoodButton"
+        android:layout_width="110dp"
+        android:layout_height="40dp"
+        android:text="@string/Last_Mood">
+    </Button>
+
+    <ImageView
+        android:id="@+id/LastMoodSmiley"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp"
+        android:layout_toEndOf="@+id/LastMoodButton">
+
+    </ImageView>
+
+
+</RelativeLayout>

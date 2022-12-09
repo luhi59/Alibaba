@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Mood.lucas</string>
+    <string name="mood_user">Mood of the user</string>
+    <string name="add_comment_button">Add Comment Button</string>
+    <string name="mood_record_button">Mood History Button</string>
+    <string name="show_comment_button">Show Comment Button</string>
+    <string name="Share_button">Share Button</string>
+    <string name="yesterday">Yesterday</string>
+
+    <string name="Sunday">Sunday</string>
+    <string name="Monday">Monday</string>
+    <string name="Tuesday">Tuesday</string>
+    <string name="Wednesday">Wednesday</string>
+    <string name="Thursday">Thursday</string>
+    <string name="Friday">Friday</string>
+    <string name="Saturday">Saturday</string>
+
+    <string name="days_ago">days ago</string>
+    <string name="send_to">Send To</string>
+    <string name="Comment_your_mood">Commente ton mood</string>
+    <string name="Comment">Comment</string>
+    <string name="Mood">Il faut écrire maintenant</string>
+    <string name="Validate">Valider</string>
+    <string name="Cancel">Retour</string>
+
+    <string name="Last_Mood">Last Mood</string>
+    <string name="You_were">You were</string>
+
+</resources>

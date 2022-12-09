@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:id="@+id/SundayLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:background="@color/banana_yellow"
+        android:padding="32dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/tv_Sunday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Sunday"
+            android:layout_gravity="center_vertical"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/button_Sunday"
+            android:layout_width="36dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginStart="102dp"
+            android:layout_toEndOf="@+id/tv_Sunday"
+            android:background="@null"
+            android:contentDescription="@string/show_comment_button"
+            android:src="@drawable/ic_text" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/MondayLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:background="@color/banana_yellow"
+        android:padding="32dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/SundayLayout">
+
+        <TextView
+            android:id="@+id/tv_Monday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start|center_vertical"
+            android:text="@string/Monday"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/button_Monday"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:background="@null"
+            android:contentDescription="@string/show_comment_button"
+            android:src="@drawable/ic_text" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/TuesdayLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@color/banana_yellow"
+        android:orientation="horizontal"
+        android:padding="32dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/MondayLayout">
+
+        <TextView
+            android:id="@+id/tv_Tuesday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start|center_vertical"
+            android:text="@string/Tuesday"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/button_Tuesday"
+            android:layout_width="36dp"
+            android:layout_marginStart="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:background="@null"
+            android:contentDescription="@string/show_comment_button"
+            android:src="@drawable/ic_text" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/WednesdayLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@color/banana_yellow"
+        android:orientation="vertical"
+        android:padding="32dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TuesdayLayout">
+
+        <TextView
+            android:id="@+id/tv_Wednesday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start|center_vertical"
+            android:text="@string/Wednesday"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/button_Wednesday"
+            android:layout_width="36dp"
+            android:layout_marginStart="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:background="@null"
+            android:contentDescription="@string/show_comment_button"
+            android:src="@drawable/ic_text" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ThursdayLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@color/banana_yellow"
+        android:orientation="horizontal"
+        android:padding="32dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/WednesdayLayout">
+
+        <TextView
+            android:id="@+id/tv_Thursday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start|center_vertical"
+            android:text="@string/Thursday"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/button_Thursday"
+            android:layout_width="36dp"
+            android:layout_marginStart="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:background="@null"
+            android:contentDescription="@string/show_comment_button"
+            android:src="@drawable/ic_text" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/FridayLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@color/banana_yellow"
+        android:orientation="horizontal"
+        android:padding="32dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ThursdayLayout">
+
+        <TextView
+            android:id="@+id/tv_Friday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start|center_vertical"
+            android:text="@string/Friday"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/button_Friday"
+            android:layout_width="36dp"
+            android:layout_marginStart="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:background="@null"
+            android:layout_toEndOf="@+id/tv_Friday"
+            android:contentDescription="@string/show_comment_button"
+            android:src="@drawable/ic_text" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/SaturdayLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@color/banana_yellow"
+        android:orientation="horizontal"
+        android:padding="32dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/FridayLayout">
+
+        <TextView
+            android:id="@+id/tv_Saturday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start|center_vertical"
+            android:text="@string/Saturday"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/button_Saturday"
+            android:layout_width="36dp"
+            android:layout_marginStart="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:background="@null"
+            android:contentDescription="@string/show_comment_button"
+            android:src="@drawable/ic_text" />
+
+    </LinearLayout>
+
+</LinearLayout>
